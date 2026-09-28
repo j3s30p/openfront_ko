@@ -1,0 +1,18 @@
+/* OPENFRONT_KO_GALMURI9_BEGIN */
+@font-face {
+  font-family: "Galmuri9";
+  src: url("/_assets/fonts/Galmuri9.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  --font-sans: "Galmuri9", ui-sans-serif, system-ui, sans-serif;
+  --default-font-family: var(--font-sans);
+}
+
+button, input, select, textarea {
+  font-family: var(--font-sans);
+}
+/* OPENFRONT_KO_GALMURI9_END */
